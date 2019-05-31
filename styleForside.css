@@ -1,0 +1,405 @@
+ /* Generelle Settings START*/
+ * {
+     box-sizing: border-box;
+ }
+
+ html {
+     font-size: 62.5%;
+     background: #FAF7F7;
+ }
+
+ img {
+     width: 100%;
+ }
+
+ body {
+     margin: 0 auto;
+ }
+
+ section {
+     margin: 0;
+ }
+
+ /* Generelle Settings SLUT */
+
+ /*------- Header, menu og navigations UL START --------*/
+
+ /* Header Logoer */
+ #headerLogo {
+     margin-left: 1rem;
+     background-image: url(Icons/Group1611.svg);
+     width: 40vw;
+     height: 14vw;
+     margin-top: 2rem;
+     background-repeat: no-repeat;
+     transform: scale(0.75);
+ }
+
+ #profileLogo {
+     text-align: right;
+     width: 50vw;
+     height: 16vw;
+     margin-top: 6vw;
+     background-repeat: no-repeat;
+     transform: scale(0.8)
+ }
+
+ #profileLogo img {
+     height: 50%;
+     width: 10vw;
+     margin-right: 1rem;
+ }
+
+ .keaLogo {
+     margin-top: 25vw;
+     width: 50vw;
+     height: 16vw;
+     background-repeat: no-repeat;
+ }
+
+ /* Navigation & UL */
+
+ nav {
+     justify-content: space-between;
+     display: flex;
+     background: #EA5045;
+ }
+
+ ul {
+     padding: 0;
+ }
+
+ /* Menu */
+
+ #menu a {
+     display: block;
+     text-decoration: none;
+     color: #F58E81;
+     margin-top: 14vw;
+     margin-bottom: 10vw;
+     font-family: canada-type-gibson, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ #menuknap {
+     z-index: 10;
+     width: 8vw;
+     height: 8vw;
+     margin-top: 7vw;
+     margin-right: 5vw;
+ }
+
+ #menu {
+     width: 100vw;
+     min-height: 100vh;
+     position: absolute;
+     z-index: 6;
+     font-size: 2.5rem;
+     background-color: #3F3140;
+     transition: .3s;
+     text-align: center;
+     padding-bottom: 20vw;
+ }
+
+ /* Logudbox i menu UL */
+
+ .logudbox {
+     background-color: #EA847C;
+     min-height: 20vw;
+     width: 100%;
+     padding-top: 0.5em;
+     padding-bottom: 0.5rem;
+     padding-top: 6vw;
+     color: white;
+     position: absolute;
+     bottom: 0;
+     font-size: 2.5rem;
+     font-family: canada-type-gibson, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ /* Hidden Class til Menu & Dropdown i afleveringer */
+
+ .hidden {
+     display: none;
+ }
+
+ /*------- Header, menu og navigations UL SLUT --------*/
+
+ /*------- Forside Main START --------*/
+
+ /* Forside Boxe */
+ .box1 {
+     background-color: #ffffff;
+     border: 5px solid #FAF7F7;
+     flex-grow: 1;
+     flex-basis: 100px;
+     width: 30vw;
+     height: 30vw;
+ }
+
+ .box2 {
+     background-color: #ffffff;
+     border: 5px solid #FAF7F7;
+     flex-grow: 2;
+     flex-basis: 200px;
+ }
+
+ .box3 {
+     background-color: #ffffff;
+     border: 5px solid #FAF7F7;
+     flex-grow: 2;
+     flex-basis: 200px;
+     width: 66.8vw;
+ }
+
+ /* Forside Boxe SLUT */
+
+ /* Figure & a tags  */
+ figure {
+     margin: 0;
+     display: flex;
+     margin-top: 6vw;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ /* Figure & a tags SLUT  */
+
+ /* P-tag, Akutuelt&techlounge Tekst*/
+ main p {
+     color: #F58E81;
+     margin-top: 3vw;
+     font-family: canada-type-gibson, sans-serif;
+     font-size: 1.5rem;
+     text-align: center;
+
+ }
+
+ .techlounge {
+     color: #F58E81;
+     text-align: center;
+     font-size: 2rem;
+     margin-top: 4.3rem;
+     font-family: canada-type-gibson, sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     letter-spacing: 0.3vw;
+ }
+
+ .aktuelt {
+     color: #F58E81;
+     text-align: center;
+     font-size: 5rem;
+     margin-top: 23vw;
+     font-family: canada-type-gibson, sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     letter-spacing: 0.2rem;
+ }
+
+ /* P-tag, Akutuelt&techlounge Tekst  SLUT*/
+
+
+ /* Diverse Ikoners Størrelse og tilpasning*/
+
+ .grupperikon {
+     padding-top: 1vw;
+ }
+
+ .chatikon {
+     transform: scale(0.9);
+     margin-top: 4vw;
+ }
+
+ .afleveringerIkon {
+     margin-top: 8vw;
+     margin-bottom: 5vw;
+     transform: scale(1.5);
+ }
+
+ /* Diverse Ikoners Størrelse og tilpasning  SLUT*/
+
+ /* Ikon rækker  */
+ #first_row {
+     display: flex;
+ }
+
+ #second_row {
+     display: flex;
+ }
+
+ #third_row {
+     display: flex;
+ }
+
+ #fourth_row {
+     display: flex;
+ }
+
+ .icon_left {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .icon_right {
+     display: flex;
+ }
+
+ #fifth_row {
+     display: flex;
+ }
+
+
+ /* ----------------------AFleveringer ----------------*/
+
+ /* Grå boxe*/
+ .greybox {
+     background-color: #F2F1F0;
+     min-height: 20vw;
+     margin: 3vw;
+     border-radius: 10px;
+ }
+
+ /*Class til style af af UL, bruges i JS til at lave dropdownfunktionen */
+
+ .dropdown {
+     background-color: rgba(245, 142, 129, 0.07);
+     background-color: #FFFFFF;
+     list-style: none;
+
+
+ }
+
+ /*Class til at rotere nedpil til mapperne, roteres  med JS */
+
+ .rotate {
+     transform: rotate(180deg);
+ }
+
+
+ /*Styling af LI */
+ .dropdown li {
+
+
+
+     border-bottom: 1px solid #DEDCED;
+     border-left: 1px solid #DEDCED;
+
+     border-right: 1px solid #DEDCED;
+
+     padding: 6vw;
+     font-family: canada-type-gibson, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 1.25rem;
+
+ }
+
+ li p {
+     text-align: left;
+     font-family: canada-type-gibson, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ /* De forskellige Ikoner på afleverings html'en  */
+ .pilNedIkon {
+     background-image: url(iconafleveringer/Down%20arrow.svg);
+     background-size: 100%;
+     width: 6vw;
+     height: 6vw;
+     background-repeat: no-repeat;
+     position: absolute;
+     right: 5vw;
+ }
+
+ .linkikon {
+     width: 6vw;
+     height: 6vw;
+     position: relative;
+     left: 84vw;
+     bottom: 6vw;
+ }
+
+ .storPilOp {
+     width: 6vw;
+     height: 6vw;
+     position: relative;
+     left: 84vw;
+     bottom: 6vw;
+ }
+
+ /* h1 h2 h3 p styling */
+
+ #mainAfleveringer h1 {
+     font-size: 2.4rem;
+     margin: 0;
+     margin-left: 6vw;
+     margin-top: 5vw;
+     font-family: canada-type-gibson, sans-serif;
+
+     font-weight: 700;
+
+     font-style: normal;
+     letter-spacing: 0.2rem;
+ }
+
+ #mainAfleveringer h2 {
+     color: #EA5045;
+     font-size: 1.6rem;
+     margin: 0;
+     margin-left: 6vw;
+     margin-top: 8vw;
+     font-family: canada-type-gibson, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+ }
+
+ #mainAfleveringer h3 {
+     color: black;
+     font-size: 1.45rem;
+     margin: 0;
+     margin-left: 3vw;
+     padding-top: 5vw;
+     font-family: canada-type-gibson, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ #mainAfleveringer p {
+     color: black;
+     font-size: 1.35rem;
+     margin: 0;
+     margin-left: 3vw;
+     margin-top: 5vw;
+     font-family: canada-type-gibson, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     text-align: left;
+ }
+
+
+ @media only screen and (min-width: 600px) {
+
+     #menuknap {
+         display: none;
+
+     }
+
+     #menu.hidden {
+         transform: translateX(0);
+         opacity: 1;
+     }
+
+     #menu li {
+         display: inline-block;
+
+     }
+ }
